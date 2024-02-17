@@ -1,7 +1,13 @@
-# civic-tech-hackatho
+# Civic-Tech-Hackathon
 
-activate virtual environment
+1. If first time, run this first:
+python -m venv env
+
+2. Activate virtual environment
     env\Scripts\activate 
 
-pip install if necessary
+3. If first time
+pip install -r requirements.txt
+
+4. Run the app
 flask run
