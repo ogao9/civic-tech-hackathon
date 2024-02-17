@@ -1,4 +1,4 @@
-# ai-image-generator
+# civic-tech-hackatho
 
 activate virtual environment
     env\Scripts\activate 
