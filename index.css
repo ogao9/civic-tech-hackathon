@@ -1,0 +1,16 @@
+#abs{  
+    font-size: calc(50px + 1vw);
+    font-weight: bold;
+    font-family: "Lucida Handwriting", cursive; 
+    text-align: center;
+}  
+
+h2{
+    font-size: calc(2px + 1vw);
+    font-family: "Georgia", serif;
+}
+
+.cityh{
+    width: calc(1000px+20vw) 
+    height: calc(500px+10vw)
+    }
