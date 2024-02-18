@@ -1,0 +1,11 @@
+#abs{  
+    font-size: calc(2px + 1vw);
+    font-weight: bold;
+    font-family: "Lucida Handwriting", cursive; 
+    text-align: center;
+}  
+
+h2{
+    font-size: 24px;
+    font-family: "Georgia", serif;
+}

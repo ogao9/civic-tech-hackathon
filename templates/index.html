@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Hello</title>
-</head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>  <!-- connect to index.css-->
+
 <body>
+    <h1 id= "abs">Title</h1>   <!-- the title name -->
     <div class="max-w-xl mx-auto pt-6 pb-12">
-        <h1 class="text-xl mb-6">Welcome</h1>
-        
-        <form action="/generate" method="POST" class="mb-8">
+        <h2 class="text-xl mb-6">Welcome Voter:</h2>
+        <ul>
+            <li>
+                <p> which election</p> <!-- election -->>
+            </li>
+        <ul>
+            <form action="/generate" method="POST" class="mb-8">
             <label for="inputString">Enter your Zip Code:</label>
             <input type="text" 
                 id="inputString" 
