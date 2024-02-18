@@ -6,18 +6,14 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/generate', methods=["POST"])
-def generate():
-    # Process form data if needed
-    prompt = request.form.get("inputString")
-    image_src = ""
+@app.route('/submit', methods=["POST"])
+def submit():
 
-    # Redirect to index1 route
-    return redirect(url_for('index1'))
+    return redirect(url_for('ballot'))
 
-@app.route('/index1')
-def index1():
-    return render_template('index1.html')
+@app.route('/ballot')
+def ballot():
+    return render_template('ballot.html')
 
 # Add a new route to handle the return from index1.html to index.html
 @app.route('/index', methods=["POST"])

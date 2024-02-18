@@ -1,5 +1,7 @@
-# Civic-Tech-Hackathon
+# Live Local Voter
 
+
+### Setup Instructions
 1. If first time, run this first:
 python -m venv env
 
